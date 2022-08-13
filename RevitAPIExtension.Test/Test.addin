@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+    <AddIn Type="Command">
+        <Assembly>RevitAPIExtension.Test.dll</Assembly>
+        <AddInId>76eb700a-2c85-4888-a78d-31429ecae9ed</AddInId>
+        <FullClassName>RevitAPIExtension.Test.Command</FullClassName>
+        <Text>Test</Text>
+        <VendorId>ADSK</VendorId>
+        <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+        <VisibilityMode>NotVisibleInFamily</VisibilityMode>
+        <Discipline>Structure</Discipline>
+        <Discipline>Architecture</Discipline>
+        <LongDescription>
+            This is the long description for my command.
+            This is another descriptive paragraph, with notes about how to use the command properly.
+        </LongDescription>
+    </AddIn>
+</RevitAddIns>
